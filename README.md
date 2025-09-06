@@ -1,4 +1,4 @@
-# PHPNuxBill Documentation and front page
+# PHPNuxBill Documentation and Landing Page
 
 ![License](https://img.shields.io/github/license/hotspotbilling/phpnuxbill?style=flat-square)
 
