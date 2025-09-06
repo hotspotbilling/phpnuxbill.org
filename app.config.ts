@@ -9,7 +9,7 @@ export default defineAppConfig({
       umami: {
         enable: true,
         src: 'https://cloud.umami.is/script.js',
-        dataWebsiteId: 'd793fbf3-461e-4e26-9ec9-4e9141df96ee',
+        dataWebsiteId: '39b92e6c-9b98-4e25-b4a7-1d2fb022305f',
       },
     },
     theme: {
