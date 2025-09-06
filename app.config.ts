@@ -4,7 +4,7 @@ export default defineAppConfig({
       name: 'PHPNuxBill',
       description: ' PHPNuxBill offers a comprehensive solution for managing user authentication, billing, and network resources. Its user-friendly interface ensures effortless navigation, while its robust features guarantee optimal performance and reliability. Embrace the future of ISP billing with PHPNuxBill, where innovation meets simplicity.',
       ogImage: '/hero.png',
-      ogImageComponent: 'ShadcnDocs',
+      ogImageComponent: 'PhpnuxBillOgImage',
       ogImageColor: 'light',
       umami: {
         enable: true,
@@ -42,6 +42,11 @@ export default defineAppConfig({
       nav: [{
         title: 'Home',
         to: '/',
+        target: '_self',
+        showLinkIcon: false,
+      }, {
+        title: 'Documentation',
+        to: '/getting-started/introduction',
         target: '_self',
         showLinkIcon: false,
       }, {

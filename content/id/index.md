@@ -1,144 +1,152 @@
 ---
-title: Home
+title: Beranda
 navigation: false
+description: PHPNuxBill - Perangkat Lunak Penagihan ISP
 ---
 
 ::hero
 ---
 announcement:
-  title: 'PHPNuxBill Ultimate is out!'
+  title: 'PHPNuxBill Ultimate telah rilis!'
   icon: '🎉'
   to: https://github.com/hotspotbilling/phpnuxbill/blob/master/CHANGELOG.md
   target: _blank
 actions:
-  - name: Get Started
+  - name: Mulai
     to: /getting-started/introduction
-    rightIcon: 'lucide:arrow-right'
-  - name: Clone on GitHub
+    rightIcon: ''
+  - name: Clone di GitHub
     variant: outline
     to: https://github.com/hotspotbilling/phpnuxbill
-    leftIcon: 'i-simple-icons-github'
+    leftIcon: ''
+  - name: Demo
+    variant: outline
+    to: https://demo.phpnuxbill.org
+    leftIcon: ''
+    target: _blank
+
 ---
 
 #title
-PHPNuxBill - ISP Billing Software
+PHPNuxBill - Perangkat Lunak Penagihan ISP
 
 #description
-PHPNuxBill offers a comprehensive solution for managing user authentication, billing, and network resources. Its user-friendly interface ensures effortless navigation, while its robust features guarantee optimal performance and reliability. Embrace the future of ISP billing with PHPNuxBill, where innovation meets simplicity.
+PHPNuxBill menawarkan solusi lengkap untuk mengelola otentikasi pengguna, penagihan, dan sumber daya jaringan. Antarmuka yang ramah pengguna memastikan navigasi yang mudah, sementara fiturnya yang kuat menjamin kinerja dan keandalan optimal. Sambut masa depan penagihan ISP dengan PHPNuxBill, di mana inovasi bertemu kesederhanaan.
 ::
 
 ::stack
   ::div{class="p-4"}
     ::color-mode-image
     ---
-    srcLight: /screenshots/dash-light.png
-    srcDark: /screenshots/dash-dark.png
-    alt: Color Mode Image
+    srcLight: https://cdn.phpnuxbill.org/public/screenshots/dash-light.png
+    srcDark:  https://cdn.phpnuxbill.org/public/screenshots/dash-dark.png
+    alt: Dasbor PHPNuxBill
+    title: Dasbor PHPNuxBill
     ---
     ::
   ::
 ::
 
-## Features
+## Fitur
 
 ::card-group
   ::card
   ---
-  title: Comprehensive Billing Management
+  title: Manajemen Penagihan Komprehensif
   ---
   ---
 
-  ###### Automated Billing:
-  > Effortlessly generate invoices, handle recurring payments, and manage customer accounts with PHPNuxBill's robust billing system.
-  ###### Customizable Pricing:
-  > Customize billing plans, payment methods, and invoice templates to suit your specific needs.
-  ###### Flexible Billing Cycles:
-  > Support for various billing cycles including monthly, quarterly, and annually.
-  ###### User Management:
-  > Efficiently manage user accounts, profiles, and permissions.
-  ###### Automated Suspensions:
-  > Automatically Suspend users for overdue payments.
-  ###### Multi-Currency Support:
-  > Support for multiple currencies in billing and invoicing.
-  ###### Multiple Payment Options:
-  > Support for multiple payment gateways including PayPal, Stripe, Bkash, Paystack, Flutterwave, Razorpay, SSLcommerz, Mpesa, Xendit, Tripay, Mobile Money and more.
+  ###### Penagihan Otomatis:
+  > Buat faktur secara otomatis, kelola pembayaran berulang, dan kelola akun pelanggan dengan sistem penagihan PHPNuxBill yang kuat.
+  ###### Harga yang Dapat Disesuaikan:
+  > Sesuaikan paket penagihan, metode pembayaran, dan template faktur sesuai kebutuhan Anda.
+  ###### Siklus Penagihan Fleksibel:
+  > Mendukung berbagai siklus penagihan termasuk bulanan, triwulanan, dan tahunan.
+  ###### Manajemen Pengguna:
+  > Kelola akun, profil, dan izin pengguna secara efisien.
+  ###### Suspensi Otomatis:
+  > Secara otomatis menangguhkan pengguna untuk pembayaran yang terlambat.
+  ###### Dukungan Multi-Mata Uang:
+  > Mendukung berbagai mata uang dalam penagihan dan pembuatan faktur.
+  ###### Banyak Opsi Pembayaran:
+  > Mendukung berbagai gateway pembayaran seperti PayPal, Stripe, Bkash, Paystack, Flutterwave, Razorpay, SSLcommerz, Mpesa, Xendit, Tripay, Mobile Money, dan lainnya.
   ::
 
   ::card
   ---
-  title: Customer Management
+  title: Manajemen Pelanggan
   ---
   ---
-  ###### Comprehensive Customer Profiles:
-  > Manage user profiles, including personal information, billing details, and service preferences.
-  ###### Self-Service Customer Portal:
-  > Empower customers to manage their accounts, view invoices, make payments, and submit support requests through a user-friendly web portal
-  ###### Detailed Reporting:
-  > Generate comprehensive reports on customer activity, revenue, and other key performance metrics for informed decision-making.
-  ###### Communication Tools:
-  > Utilize built-in communication tools to interact with users and provide support, including live chat and messaging, SMS, WhatsApp, Email, Web Push and more.
-  ###### Automated Subscription Renewals:
-  > Automatically renew subscriptions and manage payment renewals.
-  ###### Notification System:
-  > Built-in notification system to keep users informed about important updates, payment reminders, and service announcements. Support for Email, SMS, WhatsApp, Web Push and more.
+  ###### Profil Pelanggan Lengkap:
+  > Kelola profil pengguna, termasuk informasi pribadi, detail penagihan, dan preferensi layanan.
+  ###### Portal Pelanggan Mandiri:
+  > Memungkinkan pelanggan mengelola akun, melihat faktur, melakukan pembayaran, dan mengirim permintaan dukungan melalui portal web yang ramah pengguna.
+  ###### Laporan Terperinci:
+  > Hasilkan laporan lengkap tentang aktivitas pelanggan, pendapatan, dan metrik kinerja utama lainnya untuk pengambilan keputusan yang tepat.
+  ###### Alat Komunikasi:
+  > Gunakan alat komunikasi bawaan untuk berinteraksi dengan pengguna dan memberikan dukungan, termasuk live chat dan pesan, SMS, WhatsApp, Email, Web Push, dan lainnya.
+  ###### Perpanjangan Langganan Otomatis:
+  > Perpanjang langganan dan kelola perpanjangan pembayaran secara otomatis.
+  ###### Sistem Notifikasi:
+  > Sistem notifikasi bawaan untuk memberi tahu pengguna tentang pembaruan penting, pengingat pembayaran, dan pengumuman layanan. Mendukung Email, SMS, WhatsApp, Web Push, dan lainnya.
   ::
 
   ::card
   ---
-  title: Service Provisioning
+  title: Penyediaan Layanan
   ---
   ---
-  ###### Service Offerings:
-  >Define and maintain a comprehensive catalog of your available broadband internet service plans, including details such as download/upload speeds, data caps, and pricing.
-  ###### Automated Service Activation
-  > Streamline the onboarding process by automatically activating new customer accounts and services.
-  ###### Integration with Network Devices
-  > Seamlessly integrate with popular network devices such as Mikrotik for efficient service management.
-  ###### Bandwidth Management
-  > Implement advanced bandwidth management features to ensure fair usage and optimal performance for all users.
-  ###### Service Activation and Deactivation
-  > Easily activate or deactivate services for users, with built-in notifications and audit trails.
-  ###### Service Configuration
-  > Configure services such as bandwidth, data limits, and usage thresholds for each user.
-  ###### Self-Signup
-  > Enable users to sign up and activate services themselves, eliminating the need for manual intervention.
-  ###### Scheduled Service Upgrades/Downgrades
-  > Allow users to schedule upgrades or downgrades to their services based on their needs.
-  ###### Subscription Management
-  > Customers can view, manage, and modify their active service subscriptions, such as upgrading, downgrading, or canceling services, through the customer portal.
+  ###### Penawaran Layanan:
+  > Definisikan dan kelola katalog lengkap paket layanan internet broadband Anda, termasuk detail seperti kecepatan unduh/upload, batas data, dan harga.
+  ###### Aktivasi Layanan Otomatis
+  > Permudah proses onboarding dengan mengaktifkan akun dan layanan pelanggan baru secara otomatis.
+  ###### Integrasi dengan Perangkat Jaringan
+  > Integrasi mulus dengan perangkat jaringan populer seperti Mikrotik untuk manajemen layanan yang efisien.
+  ###### Manajemen Bandwidth
+  > Terapkan fitur manajemen bandwidth canggih untuk memastikan penggunaan yang adil dan kinerja optimal bagi semua pengguna.
+  ###### Aktivasi dan Penonaktifan Layanan
+  > Aktifkan atau nonaktifkan layanan untuk pengguna dengan mudah, dengan notifikasi dan jejak audit bawaan.
+  ###### Konfigurasi Layanan
+  > Konfigurasikan layanan seperti bandwidth, batas data, dan ambang batas penggunaan untuk setiap pengguna.
+  ###### Pendaftaran Mandiri
+  > Izinkan pengguna mendaftar dan mengaktifkan layanan sendiri, tanpa intervensi manual.
+  ###### Penjadwalan Upgrade/Downgrade Layanan
+  > Izinkan pengguna menjadwalkan upgrade atau downgrade layanan sesuai kebutuhan mereka.
+  ###### Manajemen Langganan
+  > Pelanggan dapat melihat, mengelola, dan memodifikasi langganan layanan aktif mereka, seperti upgrade, downgrade, atau membatalkan layanan, melalui portal pelanggan.
   ::
 
   ::card
   ---
-  title: Reporting and Analytics
+  title: Pelaporan dan Analitik
   ---
   ---
-  ###### Comprehensive Reports:
-  > Generate detailed reports on customer activity, revenue, and other key performance metrics.
-  ###### Analytics Dashboard:
-  > Access a powerful analytics dashboard to visualize and analyze billing data, trends, and patterns.
-  ###### Export Options:
-  > Export reports in various formats such as PDF, CSV, and Excel for offline analysis and sharing.
-  ###### Real-Time Data:
-  > Access real-time data and insights to make informed decisions and respond quickly to changing business conditions.
-  ###### Historical Data:
-  > View historical data trends and patterns to identify growth opportunities and areas for improvement.
-  ###### Predictive Analytics:
-  > Utilize predictive analytics to forecast future revenue, customer behavior, and other key metrics.
-  ###### Interactive Visualizations:
-  > Create interactive visualizations such as dashboards, graphs, and maps to explore and analyze data in real-time.
-  ###### Data Filters:
-  > Apply filters to focus on specific data subsets, such as date ranges, customer segments, or service types.
+  ###### Laporan Komprehensif:
+  > Hasilkan laporan terperinci tentang aktivitas pelanggan, pendapatan, dan metrik kinerja utama lainnya.
+  ###### Dasbor Analitik:
+  > Akses dasbor analitik yang kuat untuk memvisualisasikan dan menganalisis data penagihan, tren, dan pola.
+  ###### Opsi Ekspor:
+  > Ekspor laporan dalam berbagai format seperti PDF, CSV, dan Excel untuk analisis dan berbagi offline.
+  ###### Data Real-Time:
+  > Akses data dan wawasan real-time untuk pengambilan keputusan yang tepat dan respons cepat terhadap perubahan kondisi bisnis.
+  ###### Data Historis:
+  > Lihat tren dan pola data historis untuk mengidentifikasi peluang pertumbuhan dan area yang perlu ditingkatkan.
+  ###### Analitik Prediktif:
+  > Gunakan analitik prediktif untuk memproyeksikan pendapatan masa depan, perilaku pelanggan, dan metrik utama lainnya.
+  ###### Visualisasi Interaktif:
+  > Buat visualisasi interaktif seperti dasbor, grafik, dan peta untuk mengeksplorasi dan menganalisis data secara real-time.
+  ###### Filter Data:
+  > Terapkan filter untuk fokus pada subset data tertentu, seperti rentang tanggal, segmen pelanggan, atau jenis layanan.
 ::
 
-## Contributors
+## Kontributor
 
 ::team-card-group
   ::team-card
   ---
   avatar: https://avatars.githubusercontent.com/u/811955?v=4
   name: iBNu Maksum
-  title: Author
+  title: Penulis
   links:
     - icon: lucide:github
       to: https://github.com/ibnux
@@ -156,7 +164,7 @@ PHPNuxBill offers a comprehensive solution for managing user authentication, bil
   center: true
   avatar: https://avatars.githubusercontent.com/u/45756999?v=4
   name: Focuslinks Tech
-  title: Maintainer
+  title: Pemelihara
   links:
     - icon: lucide:github
       to: https://github.com/FocuslinksTech
@@ -175,7 +183,7 @@ PHPNuxBill offers a comprehensive solution for managing user authentication, bil
 img: https://contrib.rocks/image?repo=hotspotbilling/phpnuxbill&columns=10
 ---
 #title
-Thanks to all the people who have contributed to PHPNuxBill
+Terima kasih kepada semua yang telah berkontribusi pada PHPNuxBill
 
 ::
 

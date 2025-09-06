@@ -1,6 +1,7 @@
 ---
 title: Home
 navigation: false
+description: PHPNuxBill - ISP Billing Software
 ---
 
 ::hero
