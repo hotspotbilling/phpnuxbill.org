@@ -2,10 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   extends: ['shadcn-docs-nuxt'],
-  app: {
-    baseURL: '/'
-  },
-
   site: {
     url: 'https://phpnuxbill.org',
   },

@@ -1,10 +1,12 @@
-# shadcn-docs-nuxt Minimal Starter
+# PHPNuxBill Documentation and front page
 
-Starter template for [shadcn-docs-nuxt](https://github.com/ZTL-UwU/shadcn-docs-nuxt).
+![License](https://img.shields.io/github/license/hotspotbilling/phpnuxbill?style=flat-square)
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/hotspotbilling/phpnuxbill?style=flat-square)
+
 
 ## Setup
-
-Make sure to install the dependencies:
+Clone the repository make sure you install the dependencies:
 
 ```bash
 # yarn
@@ -28,14 +30,6 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
-
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=ZTL-UwU/shadcn-docs-nuxt-starter)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
-
-Build the application for production:
-
 ```bash
 npm run build
 ```
@@ -46,4 +40,8 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://shadcn-docs-nuxt.vercel.app/getting-started/deployment) for more information.
+or
+
+```bash
+node .output/server/index.mjs
+```
