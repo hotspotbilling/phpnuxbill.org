@@ -38,8 +38,8 @@ PHPNuxBill menawarkan solusi lengkap untuk mengelola otentikasi pengguna, penagi
   ::div{class="p-4"}
     ::color-mode-image
     ---
-    srcLight: https://cdn.phpnuxbill.org/public/screenshots/dash-light.png
-    srcDark:  https://cdn.phpnuxbill.org/public/screenshots/dash-dark.png
+    srcLight: /screenshots/dash-light.png
+    srcDark:  /screenshots/dash-dark.png
     alt: Dasbor PHPNuxBill
     title: Dasbor PHPNuxBill
     ---

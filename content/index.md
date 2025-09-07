@@ -38,8 +38,8 @@ PHPNuxBill offers a comprehensive solution for managing user authentication, bil
   ::div{class="p-4"}
     ::color-mode-image
     ---
-    srcLight: https://cdn.phpnuxbill.org/public/screenshots/dash-light.png
-    srcDark:  https://cdn.phpnuxbill.org/public/screenshots/dash-dark.png
+    srcLight: /screenshots/dash-light.png
+    srcDark:  /screenshots/dash-dark.png
     alt: PHPNuxBill Dashboard
     title: PHPNuxBill Dashboard
     ---

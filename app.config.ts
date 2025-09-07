@@ -29,8 +29,8 @@ export default defineAppConfig({
       title: 'PHPNuxBill',
       showTitle: true,
       logo: {
-        light: 'https://cdn.phpnuxbill.org/public/logo.png',
-        dark: 'https://cdn.phpnuxbill.org/public/logo.png',
+        light: '/logo.png',
+        dark: '/logo.png',
       },
       border: false,
       darkModeToggle: true,
